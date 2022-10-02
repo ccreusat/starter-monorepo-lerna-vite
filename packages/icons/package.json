@@ -1,0 +1,53 @@
+{
+  "name": "@starter/icons",
+  "version": "0.0.2",
+  "private": false,
+  "keywords": [
+    "react",
+    "frontend",
+    "components",
+    "icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccreusat/starter-monorepo-lerna-vite.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn icons && vite build --config ../../config/vite/vite.config.ts",
+    "icons": "npx @svgr/cli assets --config-file ./svgr.config.cjs",
+    "lint": "eslint -c ../../config/eslint/icons.json .",
+    "lint:fix": "eslint -c ../../config/eslint/icons.json --fix .",
+    "pretty": "yarn pretty:write && yarn pretty:check",
+    "pretty:check": "yarn prettier --check .",
+    "pretty:write": "yarn prettier --write ."
+  },
+  "prettier": "@starter/config/prettier/prettier.config.js",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@starter/config": "*",
+    "@svgr/cli": "^6.4.0",
+    "@types/node": "^18.7.16",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
