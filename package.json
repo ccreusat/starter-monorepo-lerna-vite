@@ -1,0 +1,36 @@
+{
+  "name": "root",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccreusat/starter-monorepo-lerna-vite.git"
+  },
+  "license": "MIT",
+  "workspaces": [
+    "config",
+    "docs/storybook",
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "yarn lerna bootstrap",
+    "build": "yarn lerna run build --ignore=@starter/storybook",
+    "build:core": "yarn lerna run build --scope=@starter/core",
+    "build:hooks": "yarn lerna run build --scope=@starter/hooks",
+    "build:icons": "yarn lerna run build --scope=@starter/icons",
+    "build:storybook": "yarn lerna run build --scope=@starter/storybook",
+    "clean": "yarn lerna clean && rm -rf node_modules",
+    "fix": "yarn lerna run fix",
+    "graph": "yarn nx graph",
+    "lint": "yarn lerna run lint",
+    "lint:core": "yarn lerna run lint --scope=@starter/core",
+    "lint:hooks": "yarn lerna run lint --scope=@starter/hooks",
+    "lint:icons": "yarn lerna run lint --scope=@starter/icons",
+    "playground": "yarn lerna run playground --scope=@starter/storybook",
+    "pretty": "yarn lerna run pretty",
+    "storybook": "yarn lerna run dev --scope=@starter/storybook"
+  },
+  "devDependencies": {
+    "lerna": "5.5.2",
+    "nx": "14.7.5"
+  }
+}

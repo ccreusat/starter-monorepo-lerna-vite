@@ -1,0 +1,5 @@
+{
+  "extends": "@starter/config/ts/tsconfig.base.json",
+  "include": ["src", "./vite.config.ts"],
+  "exclude": ["node_modules"]
+}
