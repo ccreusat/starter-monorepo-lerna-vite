@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "bootstrap": "yarn lerna bootstrap",
-    "build": "yarn lerna run build",
+    "build": "yarn lerna run build --ignore=@starter/storybook",
     "build:core": "yarn lerna run build --scope=@starter/core",
     "build:hooks": "yarn lerna run build --scope=@starter/hooks",
     "build:icons": "yarn lerna run build --scope=@starter/icons",
