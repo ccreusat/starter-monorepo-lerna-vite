@@ -1,6 +1,6 @@
 {
   "name": "@starter/icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "keywords": [
     "react",
@@ -40,7 +40,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@starter/config": "*",
+    "@starter/config": "^0.0.2",
     "@svgr/cli": "^6.4.0",
     "@types/node": "^18.7.16",
     "@types/react": "^18.0.17",
