@@ -1,6 +1,6 @@
 {
   "name": "@starter/storybook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "repository": {
     "type": "git",
@@ -12,8 +12,8 @@
     "playground": "vite"
   },
   "dependencies": {
-    "@starter/config": "*",
-    "@starter/core": "*",
+    "@starter/config": "^0.0.2",
+    "@starter/core": "^0.2.1",
     "@storybook/react": "^6.5.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
