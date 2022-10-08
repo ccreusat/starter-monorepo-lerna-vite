@@ -1,6 +1,6 @@
 {
   "name": "@starter/hooks",
-  "version": "0.1.2-alpha.0",
+  "version": "0.1.2",
   "private": false,
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@starter/config": "^0.0.3-alpha.0",
+    "@starter/config": "^0.0.3",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6"
   },
