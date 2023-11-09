@@ -15,14 +15,14 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
-      - name: Install node
-        uses: actions/checkout@v3
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        name: Install Node
           with:
             node-version: 18
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
           id: pnpm-install
           with:
             version: 8.6.6
@@ -34,17 +34,17 @@ jobs:
         run: |
           echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
-      - name: Setup pnpm cache
-        uses: actions/cache@v3
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
           with:
             path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
             key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
             restore-keys: |
               ${{ runner.os }}-pnpm-store-
 
-      - name: Install & Build
-        run: pnpm install --no-frozen-lockfile
-        run: pnpm build
+      - run: pnpm install --no-frozen-lockfile
+      - run: pnpm build
+        name: Install & Build
 
       - name: Write NPM_TOKEN
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
