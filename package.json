@@ -13,12 +13,12 @@
     "fix": "pnpm lerna run fix",
     "graph": "pnpm nx graph",
     "lint": "pnpm lerna run lint",
-    "lint:core": "pnpm lerna run lint --scope=@starter/core",
-    "lint:hooks": "pnpm lerna run lint --scope=@starter/hooks",
-    "lint:icons": "pnpm lerna run lint --scope=@starter/icons",
-    "playground": "pnpm lerna run playground --scope=@starter/storybook",
+    "lint:core": "pnpm lerna run lint --scope=@ccreusat/core",
+    "lint:hooks": "pnpm lerna run lint --scope=@ccreusat/hooks",
+    "lint:icons": "pnpm lerna run lint --scope=@ccreusat/icons",
+    "playground": "pnpm lerna run playground --scope=@ccreusat/storybook",
     "pretty": "pnpm lerna run pretty",
-    "storybook": "pnpm lerna run dev --scope=@starter/storybook"
+    "storybook": "pnpm lerna run dev --scope=@ccreusat/storybook"
   },
   "dependencies": {},
   "devDependencies": {
