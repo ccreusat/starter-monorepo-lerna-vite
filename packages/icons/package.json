@@ -26,25 +26,28 @@
     "dist"
   ],
   "scripts": {
-    "build": "yarn icons && vite build --config ../../config/vite/vite.config.ts",
+    "build": "pnpm icons && vite build",
     "icons": "npx @svgr/cli assets --config-file ./svgr.config.cjs",
     "lint": "eslint -c ../../config/eslint/icons.json .",
     "lint:fix": "eslint -c ../../config/eslint/icons.json --fix .",
-    "pretty": "yarn pretty:write && yarn pretty:check",
-    "pretty:check": "yarn prettier --check .",
-    "pretty:write": "yarn prettier --write ."
+    "pretty": "pnpm pretty:write && pnpm pretty:check",
+    "pretty:check": "pnpm prettier --check .",
+    "pretty:write": "pnpm prettier --write ."
   },
-  "prettier": "@starter/config/prettier/prettier.config.js",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@starter/config": "^0.0.3",
     "@svgr/cli": "^6.4.0",
     "@types/node": "^18.7.16",
     "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6"
+    "@types/react-dom": "^18.0.6",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "4.4.9",
+    "@vitejs/plugin-react": "4.0.4",
+    "vite-plugin-dts": "3.5.1"
   },
   "peerDependencies": {
     "react": "^18.2.0",

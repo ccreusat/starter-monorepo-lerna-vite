@@ -8,11 +8,7 @@
   "license": "MIT",
   "scripts": {
     "bootstrap": "pnpm lerna bootstrap",
-    "build": "npx lerna run build --ignore=@starter/storybook",
-    "build:core": "pnpm lerna run build --scope=@starter/core",
-    "build:hooks": "pnpm lerna run build --scope=@starter/hooks",
-    "build:icons": "pnpm lerna run build --scope=@starter/icons",
-    "build:storybook": "pnpm lerna run build --scope=@starter/storybook",
+    "build": "npx lerna run build",
     "clean": "pnpm lerna clean && rm -rf node_modules",
     "fix": "pnpm lerna run fix",
     "graph": "pnpm nx graph",
