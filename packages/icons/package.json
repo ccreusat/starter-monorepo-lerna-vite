@@ -20,6 +20,9 @@
       "require": "./dist/index.cjs"
     }
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "files": [
