@@ -1,6 +1,6 @@
 {
   "name": "@starter/hooks",
-  "version": "0.1.4-develop.0",
+  "version": "0.1.4",
   "private": false,
   "repository": {
     "type": "git",
