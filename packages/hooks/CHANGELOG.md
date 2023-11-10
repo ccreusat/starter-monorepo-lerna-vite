@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.5-develop.1 (2023-11-09)
+
+
+### Bug Fixes
+
+* add license md ([5bee964](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/5bee9645737edb63a8df5afe3021b426bb00ce34))
+* add publishConfig ([c88ade8](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/c88ade8450289325d0fe4615a29b014fb994dbef))
+* change scope to [@ccreusat](https://github.com/ccreusat) ([52c0723](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/52c07237fe81203f34cf5dbe3c51a1ae169cbd13))
+* install and build works ([5a149db](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/5a149db6b335b45625769a36e873fdd357b8011b))
+* rename key to k ([a120bb5](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/a120bb525a26ce18ddcd68b32272ae2b71feff4d))
+
+
+
+
+
 ## 0.1.5-develop.0 (2023-11-09)
 
 
