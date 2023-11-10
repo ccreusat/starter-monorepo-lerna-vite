@@ -1,9 +1,19 @@
 {
     "git": {
         "requireCleanWorkingDir": false,
-        "commitMessage": "chore: release v${version}"
+        "push": true,
+        "tagName": "${packageName}-v${version}",
+        "pushRepo": "git@github.com:b12k/monorepo-semantic-releases.git",
+        "commitsPath": ".",
+        "commitMessage": "chore: release v${version}",
+        "requireCommits": true,
+        "requireCommitsFail": false
     },
     "github": {
-        "release": true
+        "release": true,
+        "releaseName": "${packageName}-v${version}"
+    },
+    "npm": {
+        "publish": true
     }
 }
