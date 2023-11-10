@@ -1,0 +1,9 @@
+{
+    "git": {
+        "requireCleanWorkingDir": false,
+        "commitMessage": "chore: release v${version}"
+    },
+    "github": {
+        "release": true
+    }
+}
