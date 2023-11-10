@@ -12,5 +12,6 @@
   "devDependencies": {
     "@release-it/bumper": "^5.1.0",
     "release-it": "^16.2.1"
-  }
+  },
+  "version": "0.3.0-beta.0"
 }
