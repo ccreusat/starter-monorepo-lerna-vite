@@ -52,8 +52,8 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          npx lerna version --conventional-commits --create-release github --preid develop --yes
-          npx lerna publish from-package --pre-dist-tag develop --yes
+          npx lerna version --conventional-commits --create-release github --yes
+          npx lerna publish from-package --yes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
