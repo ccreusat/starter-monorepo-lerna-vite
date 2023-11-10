@@ -14,6 +14,13 @@
         "releaseName": "${packageName}-v${version}"
     },
     "npm": {
-        "publish": true
+        "publish": true,
+        "preRelease": "beta"
+    },
+    "plugins": {
+        "@release-it/bumper": {
+            "in": "composer.json",
+            "out": "composer.json"
+        }
     }
 }
