@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.5.13 (2023-11-10)
+
+**Note:** Version bump only for package @starter-ccreusat/core
+
+
+
+
+
 ## 0.5.12 (2023-11-10)
 
 **Note:** Version bump only for package @starter-ccreusat/core
