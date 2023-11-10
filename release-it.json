@@ -9,7 +9,7 @@
         "requireCommitsFail": false
     },
     "github": {
-        "release": true,
+        "preRelease": true,
         "releaseName": "${packageName}-v${version}"
     },
     "npm": {
