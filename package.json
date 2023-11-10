@@ -18,10 +18,11 @@
     "lint:icons": "pnpm lerna run lint --scope=@starter-ccreusat/icons",
     "playground": "pnpm lerna run playground --scope=@starter-ccreusat/storybook",
     "pretty": "pnpm lerna run pretty",
-    "storybook": "pnpm lerna run dev --scope=@starter-ccreusat/storybook"
+    "storybook": "pnpm lerna run dev --scope=@starter-ccreusat/storybook",
+    "release": "release-it"
   },
-  "dependencies": {},
   "devDependencies": {
-    "lerna": "^7.0.2"
+    "lerna": "^7.0.2",
+    "release-it": "^16.2.1"
   }
 }
