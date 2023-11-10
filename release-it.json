@@ -1,5 +1,6 @@
 {
     "git": {
+        "requireBranch": "release-it",
         "requireCleanWorkingDir": false,
         "push": true,
         "tagName": "${packageName}-v${version}",
