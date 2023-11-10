@@ -48,7 +48,9 @@ jobs:
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
       - name: Version & Publish
-        run: npx lerna publish from-package --conventional-commits --conventional-graduate --create-release github --yes
+        run: |
+          npx lerna version --conventional-commits --conventional-graduate --create-release github --preid develop --yes
+          npx lerna publish from-package --pre-dist-tag develop --yes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
