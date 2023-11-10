@@ -51,8 +51,6 @@ jobs:
 
           npx lerna version --conventional-commits --create-release github --yes
 
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-
           pnpm publish -r  --access  public
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
