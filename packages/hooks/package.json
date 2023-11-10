@@ -1,5 +1,5 @@
 {
-  "name": "@ccreusat/hooks",
+  "name": "@ccreusat-test/hooks",
   "version": "0.1.5",
   "private": false,
   "repository": {
@@ -35,5 +35,6 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "gitHead": "495efa78655005f16245bac5e4fa9a1d59f4fdb4"
 }

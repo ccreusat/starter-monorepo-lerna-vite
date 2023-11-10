@@ -1,5 +1,5 @@
 {
-  "name": "@ccreusat/icons",
+  "name": "@ccreusat-test/icons",
   "version": "0.0.7",
   "private": false,
   "keywords": [
@@ -55,5 +55,6 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "gitHead": "495efa78655005f16245bac5e4fa9a1d59f4fdb4"
 }

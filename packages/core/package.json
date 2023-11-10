@@ -1,5 +1,5 @@
 {
-  "name": "@ccreusat/core",
+  "name": "@ccreusat-test/core",
   "version": "0.4.0",
   "private": false,
   "keywords": [
@@ -54,5 +54,6 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "gitHead": "495efa78655005f16245bac5e4fa9a1d59f4fdb4"
 }
