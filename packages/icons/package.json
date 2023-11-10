@@ -35,7 +35,8 @@
     "lint:fix": "eslint -c ../../config/eslint/icons.json --fix .",
     "pretty": "pnpm pretty:write && pnpm pretty:check",
     "pretty:check": "pnpm prettier --check .",
-    "pretty:write": "pnpm prettier --write ."
+    "pretty:write": "pnpm prettier --write .",
+    "release": "release-it"
   },
   "dependencies": {
     "react": "^18.2.0",
