@@ -19,6 +19,7 @@ jobs:
         name: Install Node
         with:
           node-version: 18
+          registry-url: https://registry.npmjs.org
 
       - uses: pnpm/action-setup@v2
         name: Install pnpm
@@ -51,6 +52,8 @@ jobs:
 
           npx lerna version --conventional-commits --create-release github --yes
 
+          pnpm config set @starter-ccreusat:registry=https://registry.npmjs.org/
+          pnpm config set '//registry.npmjs.org/:_authToken' "${{ secrets.NPM_TOKEN }}"
           pnpm publish -r  --access  public
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
