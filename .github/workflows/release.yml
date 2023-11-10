@@ -48,17 +48,7 @@ jobs:
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
       - name: Version & Publish
-        run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor}}@users.noreply.github.com"
-
-          if [ ${{ github.base_ref }} = develop ]; then
-            npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid develop --yes
-          else
-            npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
-          fi
-
-          npx lerna publish from-git --yes
+        run: npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
