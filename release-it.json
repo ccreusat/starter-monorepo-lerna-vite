@@ -1,6 +1,6 @@
 {
     "git": {
-        "requireBranch": "release-it",
+        "requireBranch": "beta",
         "requireCleanWorkingDir": false,
         "push": true,
         "tagName": "${packageName}-v${version}",
