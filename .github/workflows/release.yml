@@ -49,6 +49,9 @@ jobs:
 
       - name: Version & Publish
         run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor}}@users.noreply.github.com"
+
           npx lerna version --conventional-commits --create-release github --preid develop --yes
           npx lerna publish from-package --pre-dist-tag develop --yes
         env:
