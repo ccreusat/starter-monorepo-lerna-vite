@@ -51,11 +51,7 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          npx lerna version --conventional-commits --conventional-graduate --create-release github --yes || export LERNA_VERSION_ERROR=$?
-
-          if [ -n "$LERNA_VERSION_ERROR" ]; then
-            npx lerna version --conventional-commits --create-release github --yes
-          fi
+          npx lerna version --conventional-commits --conventional-graduate --force-conventional-graduate --create-release github --yes
 
           npx lerna publish from-git --yes
         env:
