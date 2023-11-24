@@ -55,6 +55,7 @@ jobs:
 
           if [ -n "$LERNA_VERSION_ERROR" ]; then
             echo "Error in lerna version. Running alternative command."
+            npx lerna version --conventional-commits --create-release github --yes
           fi
 
           npx lerna publish from-git --yes
