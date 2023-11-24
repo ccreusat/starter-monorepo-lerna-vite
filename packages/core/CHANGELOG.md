@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.3-develop-pedago.0 (2023-11-24)
+
+
+### Bug Fixes
+
+* remove wrong icon ([136e252](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/136e2523cba9fb4108800d66db59a7c37fc41831))
+
+
+
+
+
 ## 0.4.3-develop.0 (2023-11-24)
 
 **Note:** Version bump only for package @starter-ccreusat/core
