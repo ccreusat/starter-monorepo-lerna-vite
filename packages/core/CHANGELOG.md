@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.4](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/core@0.4.4-develop.0...@starter-ccreusat/core@0.4.4) (2023-11-24)
+
+**Note:** Version bump only for package @starter-ccreusat/core
+
+
+
+
+
 ## 0.5.14 (2023-11-10)
 
 **Note:** Version bump only for package @starter-ccreusat/core
