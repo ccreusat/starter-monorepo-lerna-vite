@@ -1,4 +1,3 @@
-export { default as AddUser } from "./AddUser";
 export { default as AlertTriangle } from "./AlertTriangle";
 export { default as AlertCircle } from "./AlertCircle";
 export { default as Applications } from "./Applications";
