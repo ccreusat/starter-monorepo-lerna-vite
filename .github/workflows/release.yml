@@ -43,6 +43,9 @@ jobs:
       - run: pnpm install --no-frozen-lockfile && pnpm build
         name: Install & Build
 
+      - name: Write NPM_TOKEN
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+
       - name: Version & Publish
         run: |
           git config user.name "${{ github.actor }}"
