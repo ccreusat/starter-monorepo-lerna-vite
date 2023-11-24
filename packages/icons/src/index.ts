@@ -1,7 +1,6 @@
 export { default as AddUser } from "./AddUser";
 export { default as AlertTriangle } from "./AlertTriangle";
 export { default as AlertCircle } from "./AlertCircle";
-export { default as Answer } from "./Answer";
 export { default as Applications } from "./Applications";
 export { default as Attachment } from "./Attachment";
 export { default as Audio } from "./Audio";
