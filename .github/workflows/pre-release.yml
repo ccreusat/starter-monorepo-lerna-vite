@@ -1,8 +1,9 @@
-name: Lerna release
+name: Pre-Release
 on:
   push:
     branches:
-      - main
+      - develop
+      - develop*
 permissions:
   contents: read #  for checkout
 jobs:
@@ -51,7 +52,13 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
+          if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
+            npx lerna version --conventional-commits --conventional-prerelease --preid develop-pedago --yes
+          elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
+            npx lerna version --conventional-commits --conventional-prerelease --preid develop-b2school --yes
+          else
+            npx lerna version --conventional-commits --conventional-prerelease --preid develop --yes
+          fi
 
           npx lerna publish from-git --yes
         env:
