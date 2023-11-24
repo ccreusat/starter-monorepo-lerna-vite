@@ -54,9 +54,9 @@ jobs:
 
           if [ "${{ github.ref }}" = "refs/heads/develop" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid develop --yes
-          if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
+          elif [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid develop-pedago --yes
-          if [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
+          elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid develop-b2school --yes
           else
             npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
