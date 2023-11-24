@@ -1,0 +1,130 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
+0 silly argv   'conventional-graduate': true,
+0 silly argv   conventionalGraduate: true,
+0 silly argv   'create-release': 'github',
+0 silly argv   createRelease: 'github',
+0 silly argv   yes: true,
+0 silly argv   y: true,
+0 silly argv   lernaVersion: '7.0.2',
+0 silly argv   '$0': '/Users/ccre/.npm/_npx/d5cad42883f80c04/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v7.0.2
+2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
+3 verbose rootPath /Users/ccre/Developer/lab/starter-monorepo-lerna-vite
+4 silly createGitHubClient
+5 info versioning independent
+6 silly isAnythingCommitted
+7 verbose isAnythingCommitted 1
+8 silly getCurrentBranch
+9 verbose currentBranch main
+10 silly remoteBranchExists
+11 silly isBehindUpstream
+12 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+13 silly hasTags
+14 verbose hasTags true
+15 silly git-describe.sync "@starter-ccreusat/core@0.5.14-1-g4c0b5b3" => {"lastTagName":"@starter-ccreusat/core@0.5.14","lastVersion":"0.5.14","refCount":"1","sha":"4c0b5b3","isDirty":false}
+16 warn conventional-graduate all packages
+17 info Graduating all prereleased packages
+18 info Looking for changed packages since @starter-ccreusat/core@0.5.14
+19 verbose updated @starter-ccreusat/core
+20 verbose updated @starter-ccreusat/hooks
+21 verbose updated @starter-ccreusat/icons
+22 silly independent for @starter-ccreusat/core at /Users/ccre/Developer/lab/starter-monorepo-lerna-vite/packages/core
+23 verbose getChangelogConfig using preset "conventional-changelog-angular"
+24 silly npa Result {
+24 silly npa   type: 'tag',
+24 silly npa   registry: true,
+24 silly npa   where: undefined,
+24 silly npa   raw: 'conventional-changelog-angular',
+24 silly npa   name: 'conventional-changelog-angular',
+24 silly npa   escapedName: 'conventional-changelog-angular',
+24 silly npa   scope: undefined,
+24 silly npa   rawSpec: '',
+24 silly npa   saveSpec: null,
+24 silly npa   fetchSpec: 'latest',
+24 silly npa   gitRange: undefined,
+24 silly npa   gitCommittish: undefined,
+24 silly npa   hosted: undefined
+24 silly npa }
+25 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+26 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+27 verbose independent increment 0.4.4-develop.0 by patch
+28 silly independent for @starter-ccreusat/hooks at /Users/ccre/Developer/lab/starter-monorepo-lerna-vite/packages/hooks
+29 verbose independent increment 0.1.9-develop.0 by patch
+30 silly independent for @starter-ccreusat/icons at /Users/ccre/Developer/lab/starter-monorepo-lerna-vite/packages/icons
+31 verbose independent increment 0.0.11-develop.0 by patch
+32 info auto-confirmed
+33 info execute Creating releases...
+34 silly lifecycle No script for "preversion" in "root", continuing
+35 silly lifecycle No script for "preversion" in "@starter-ccreusat/core", continuing
+36 silly lifecycle No script for "preversion" in "@starter-ccreusat/hooks", continuing
+37 silly lifecycle No script for "preversion" in "@starter-ccreusat/icons", continuing
+38 verbose version @starter-ccreusat/core has no lockfile. Skipping lockfile update.
+39 verbose version @starter-ccreusat/hooks has no lockfile. Skipping lockfile update.
+40 verbose version @starter-ccreusat/icons has no lockfile. Skipping lockfile update.
+41 silly lifecycle No script for "version" in "@starter-ccreusat/core", continuing
+42 silly independent for @starter-ccreusat/core at /Users/ccre/Developer/lab/starter-monorepo-lerna-vite/packages/core
+43 silly lifecycle No script for "version" in "@starter-ccreusat/hooks", continuing
+44 silly independent for @starter-ccreusat/hooks at /Users/ccre/Developer/lab/starter-monorepo-lerna-vite/packages/hooks
+45 silly lifecycle No script for "version" in "@starter-ccreusat/icons", continuing
+46 silly independent for @starter-ccreusat/icons at /Users/ccre/Developer/lab/starter-monorepo-lerna-vite/packages/icons
+47 silly independent writing new entry: "## [0.4.4](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/core@0.4.4-develop.0...@starter-ccreusat/core@0.4.4) (2023-11-24)\n\n**Note:** Version bump only for package @starter-ccreusat/core\n\n\n\n"
+48 silly independent writing new entry: "## [0.1.9](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/hooks@0.1.9-develop.0...@starter-ccreusat/hooks@0.1.9) (2023-11-24)\n\n**Note:** Version bump only for package @starter-ccreusat/hooks\n\n\n\n"
+49 verbose independent wrote /Users/ccre/Developer/lab/starter-monorepo-lerna-vite/packages/core/CHANGELOG.md
+50 silly independent writing new entry: "## [0.0.11](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/icons@0.0.11-develop.0...@starter-ccreusat/icons@0.0.11) (2023-11-24)\n\n**Note:** Version bump only for package @starter-ccreusat/icons\n\n\n\n"
+51 verbose independent wrote /Users/ccre/Developer/lab/starter-monorepo-lerna-vite/packages/hooks/CHANGELOG.md
+52 verbose independent wrote /Users/ccre/Developer/lab/starter-monorepo-lerna-vite/packages/icons/CHANGELOG.md
+53 verbose version Updating root pnpm-lock.yaml
+54 silly lifecycle No script for "version" in "root", continuing
+55 silly gitAdd [
+55 silly gitAdd   'packages/core/package.json',
+55 silly gitAdd   'packages/hooks/package.json',
+55 silly gitAdd   'packages/icons/package.json',
+55 silly gitAdd   'packages/core/CHANGELOG.md',
+55 silly gitAdd   'packages/hooks/CHANGELOG.md',
+55 silly gitAdd   'packages/icons/CHANGELOG.md',
+55 silly gitAdd   'pnpm-lock.yaml'
+55 silly gitAdd ]
+56 silly gitCommit chore(release): publish
+56 silly gitCommit
+56 silly gitCommit  - @starter-ccreusat/core@0.4.4
+56 silly gitCommit  - @starter-ccreusat/hooks@0.1.9
+56 silly gitCommit  - @starter-ccreusat/icons@0.0.11
+57 verbose git [
+57 verbose git   'commit',
+57 verbose git   '-F',
+57 verbose git   '/private/var/folders/r2/8wtj1tms18qd__wl8x97_qg40000gn/T/36a43c9d-b683-4026-bdbc-3be534b89b87/lerna-commit.txt'
+57 verbose git ]
+58 silly gitTag @starter-ccreusat/core@0.4.4 git tag %s -m %s
+59 verbose git [
+59 verbose git   'tag',
+59 verbose git   '@starter-ccreusat/core@0.4.4',
+59 verbose git   '-m',
+59 verbose git   '@starter-ccreusat/core@0.4.4'
+59 verbose git ]
+60 silly gitTag @starter-ccreusat/hooks@0.1.9 git tag %s -m %s
+61 verbose git [
+61 verbose git   'tag',
+61 verbose git   '@starter-ccreusat/hooks@0.1.9',
+61 verbose git   '-m',
+61 verbose git   '@starter-ccreusat/hooks@0.1.9'
+61 verbose git ]
+62 silly gitTag @starter-ccreusat/icons@0.0.11 git tag %s -m %s
+63 verbose git [
+63 verbose git   'tag',
+63 verbose git   '@starter-ccreusat/icons@0.0.11',
+63 verbose git   '-m',
+63 verbose git   '@starter-ccreusat/icons@0.0.11'
+63 verbose git ]
+64 error Error: Command failed with exit code 128: git tag @starter-ccreusat/hooks@0.1.9 -m @starter-ccreusat/hooks@0.1.9
+64 error fatal: tag '@starter-ccreusat/hooks@0.1.9' already exists
+64 error     at makeError (/Users/ccre/.npm/_npx/d5cad42883f80c04/node_modules/execa/lib/error.js:59:11)
+64 error     at handlePromise (/Users/ccre/.npm/_npx/d5cad42883f80c04/node_modules/execa/index.js:114:26)
+64 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+64 error     at async Promise.all (index 1)
+64 error     at async VersionCommand.gitCommitAndTagVersionForUpdates (/Users/ccre/.npm/_npx/d5cad42883f80c04/node_modules/lerna/dist/index.js:8322:9)
+64 error     at async VersionCommand.commitAndTagUpdates (/Users/ccre/.npm/_npx/d5cad42883f80c04/node_modules/lerna/dist/index.js:8302:18)
+64 error     at async Promise.all (index 0)

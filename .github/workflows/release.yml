@@ -49,8 +49,7 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
           npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
-
-          pnpm publish -r  --access  public
+          npx lerna publish from-git --yes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
