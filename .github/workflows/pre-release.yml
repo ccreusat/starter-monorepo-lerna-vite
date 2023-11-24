@@ -57,7 +57,7 @@ jobs:
           elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --preid develop-b2school --yes
           else
-            npx lerna version --conventional-commits --conventional-prerelease --preid develop --yes
+            npx lerna version --conventional-commits --conventional-prerelease --conventional-bump-prerelease --preid develop --yes
           fi
 
           npx lerna publish from-git --yes
