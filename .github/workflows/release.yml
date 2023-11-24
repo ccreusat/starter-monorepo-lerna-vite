@@ -52,7 +52,7 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          if [ ${{ github.base_ref }} = develop ]; then
+          if [ "${{ github.ref }}" = "refs/heads/develop" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid develop --yes
           else
             npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
