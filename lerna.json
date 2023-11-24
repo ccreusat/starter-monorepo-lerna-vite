@@ -7,7 +7,7 @@
       "allowBranch": [
         "main",
         "develop",
-        "develop-*"
+        "develop*"
       ],
       "message": "chore(release): publish"
     }
