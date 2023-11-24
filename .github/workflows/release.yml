@@ -52,26 +52,15 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          # if [ "${{ github.ref }}" = "refs/heads/develop" ]; then
-          #   npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid develop --yes
-          # else
-          #   npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
-          # fi
-
-          case "${{ github.ref }}" in
-          "refs/heads/develop")
-            npx lerna version --conventional-commits --conventional-prerelease --preid develop --yes
-            ;;
-          "refs/heads/develop-pedago")
-            npx lerna version --conventional-commits --conventional-prerelease --preid develop-pedago --yes
-            ;;
-          "refs/heads/develop-b2school")
-            npx lerna version --conventional-commits --conventional-prerelease --preid develop-b2school --yes
-            ;;
-          *)
+          if [ "${{ github.ref }}" = "refs/heads/develop" ]; then
+            npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid develop --yes
+          if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
+            npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid develop-pedago --yes
+          if [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
+            npx lerna version --conventional-commits --conventional-prerelease --create-release github --preid develop-b2school --yes
+          else
             npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
-            ;;
-        esac
+          fi
 
           npx lerna publish from-git --yes
         env:
