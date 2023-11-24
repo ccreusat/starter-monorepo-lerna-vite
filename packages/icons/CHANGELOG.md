@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.10-develop-pedago.2 (2023-11-24)
+
+**Note:** Version bump only for package @starter-ccreusat/icons
+
+
+
+
+
 ## 0.0.10-develop-pedago.1 (2023-11-24)
 
 **Note:** Version bump only for package @starter-ccreusat/icons
