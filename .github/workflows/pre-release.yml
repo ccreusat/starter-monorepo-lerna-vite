@@ -53,7 +53,7 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
           if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
-            npx lerna version --conventional-commits --conventional-prerelease --preid develop-pedago --yes
+            npx lerna version --conventional-commits --conventional-prerelease --preid develop-pedago --no-git-tag-version --yes
           elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --preid develop-b2school --yes
           else
