@@ -1,8 +1,9 @@
-name: Release
+name: Pre-Release
 on:
   push:
     branches:
-      - main
+      - develop
+      - develop*
 permissions:
   contents: read #  for checkout
 jobs:
@@ -43,14 +44,23 @@ jobs:
       - run: pnpm install --no-frozen-lockfile && pnpm build
         name: Install & Build
 
+      - name: Write NPM_TOKEN
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+
       - name: Version & Publish
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
+          if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
+            npx lerna version --conventional-commits --conventional-prerelease --preid develop-pedago --no-changelog --yes
+          elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
+            npx lerna version --conventional-commits --conventional-prerelease --preid develop-b2school --no-changelog --yes
+          else
+            npx lerna version --conventional-commits --conventional-prerelease --conventional-bump-prerelease --preid develop --no-changelog --yes
+          fi
 
-          pnpm publish -r  --access  public
+          npx lerna publish from-git --yes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
