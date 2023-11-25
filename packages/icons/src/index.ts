@@ -1,4 +1,3 @@
-export { default as Attachment } from "./Attachment";
 export { default as Audio } from "./Audio";
 export { default as Block } from "./Block";
 export { default as BurgerMenu } from "./BurgerMenu";
