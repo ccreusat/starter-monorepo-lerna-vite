@@ -1,5 +1,4 @@
 export { default as AlertTriangle } from "./AlertTriangle";
-export { default as AlertCircle } from "./AlertCircle";
 export { default as Applications } from "./Applications";
 export { default as Attachment } from "./Attachment";
 export { default as Audio } from "./Audio";
