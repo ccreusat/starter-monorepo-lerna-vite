@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.7 (2023-11-25)
+
+
+### Bug Fixes
+
+* rollback icons ([d28e01b](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/d28e01bf14e38a92a69ea87f9e45b840093282c2))
+
+
+
+
+
 ## 1.1.6 (2023-11-25)
 
 **Note:** Version bump only for package @starter-ccreusat/hooks
