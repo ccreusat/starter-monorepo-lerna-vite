@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.9-develop.0 (2023-11-25)
+
+
+### Bug Fixes
+
+* ignore some hooks ([cb96561](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/cb96561b5a0a6cf358a1c668e8a83db29815d939))
+
+
+
+
+
 ## 1.1.8 (2023-11-25)
 
 **Note:** Version bump only for package @starter-ccreusat/core
