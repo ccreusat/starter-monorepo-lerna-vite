@@ -54,13 +54,15 @@ jobs:
 
           if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --preid develop-pedago --no-changelog --yes
+            npx lerna publish from-git --dist-tag develop-pedago --yes
           elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --preid develop-b2school --no-changelog --yes
+            npx lerna publish from-git --dist-tag develop-b2school --yes
           else
             npx lerna version --conventional-commits --conventional-prerelease --preid develop --no-changelog --yes
+            npx lerna publish from-git --dist-tag develop --yes
           fi
 
-          npx lerna publish from-git --yes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
