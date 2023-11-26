@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.18](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/core@1.1.17...@starter-ccreusat/core@1.1.18) (2023-11-26)
+
+
+### Bug Fixes
+
+* **core:** rename accordion types ([7316382](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/7316382db1d128df943986f391f978fbbab5d3b1))
+
+
+
+
+
 ## [1.1.17](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/core@1.1.16...@starter-ccreusat/core@1.1.17) (2023-11-26)
 
 
