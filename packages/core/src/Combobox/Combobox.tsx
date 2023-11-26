@@ -1,4 +1,4 @@
-import { ButtonProps } from "./ButtonProps";
+import { ComboboxProps } from "./ComboboxProps";
 
 /**
  * Primary UI component for user interaction
@@ -9,7 +9,7 @@ export const Button = ({
   backgroundColor,
   label,
   ...props
-}: ButtonProps) => {
+}: ComboboxProps) => {
   const mode = primary ? "btn-primary" : "btn-secondary";
   return (
     <button
