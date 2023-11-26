@@ -9,7 +9,7 @@
         "develop",
         "develop*"
       ],
-      "message": "chore(release): publish"
+      "message": "fix(release): publish"
     }
   }
 }
