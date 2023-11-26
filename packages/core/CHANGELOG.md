@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.17](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/core@1.1.16...@starter-ccreusat/core@1.1.17) (2023-11-26)
+
+
+### Bug Fixes
+
+* correct index file ([c6eb2c7](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/c6eb2c7e0d4dbfa355547409b754ec733c0d1fe7))
+
+
+
+
+
 ## [1.1.16](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/core@1.1.15...@starter-ccreusat/core@1.1.16) (2023-11-26)
 
 **Note:** Version bump only for package @starter-ccreusat/core
