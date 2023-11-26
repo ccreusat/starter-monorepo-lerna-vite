@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.11 (2023-11-26)
+
+
+### Bug Fixes
+
+* try different message when publish ([b0f77f4](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/b0f77f4965ae89475c64ca7f827d73f75bd09c71))
+
+
+
+
+
 ## [1.1.10](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/hooks@1.1.10-develop.0...@starter-ccreusat/hooks@1.1.10) (2023-11-25)
 
 **Note:** Version bump only for package @starter-ccreusat/hooks
