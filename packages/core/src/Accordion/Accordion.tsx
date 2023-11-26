@@ -1,15 +1,15 @@
-import { ButtonProps } from "./ButtonProps";
+import { AccordionProps } from "./AccordionProps";
 
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({
+export const Accordion = ({
   primary = false,
   size = "medium",
   backgroundColor,
   label,
   ...props
-}: ButtonProps) => {
+}: AccordionProps) => {
   const mode = primary ? "btn-primary" : "btn-secondary";
   return (
     <button
@@ -23,4 +23,4 @@ export const Button = ({
   );
 };
 
-export default Button;
+export default Accordion;

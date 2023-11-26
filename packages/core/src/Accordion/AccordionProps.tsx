@@ -1,4 +1,4 @@
-export interface ButtonProps {
+export interface AccordionProps {
   /**
    * Is this the principal call to action on the page?
    */
