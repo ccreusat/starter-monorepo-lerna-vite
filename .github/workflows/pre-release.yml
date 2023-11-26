@@ -57,7 +57,7 @@ jobs:
           elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
             npx lerna publish --canary --preid develop-b2school --pre-dist-tag develop-b2school --yes
           else
-            npx lerna publish --canary --preid develop --pre-dist-tag develop --yes
+            npx lerna publish --canary --preid develop --pre-dist-tag develop --force-publish --yes
           fi
 
         env:
