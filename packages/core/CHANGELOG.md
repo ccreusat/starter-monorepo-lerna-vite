@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/core@1.2.0...@starter-ccreusat/core@1.3.0) (2023-11-26)
+
+
+### Features
+
+* add new accordion component ([6737e9a](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/6737e9a211540630b5f1a1f4b266e4763dc6af1d))
+
+
+
+
+
 # [1.2.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/core@1.2.0-develop.1...@starter-ccreusat/core@1.2.0) (2023-11-26)
 
 **Note:** Version bump only for package @starter-ccreusat/core
