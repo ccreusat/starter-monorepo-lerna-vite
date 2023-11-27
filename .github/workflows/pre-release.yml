@@ -27,6 +27,9 @@ jobs:
           version: 8.6.6
           run_install: false
 
+      - name: Write NPM_TOKEN
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+
       - name: Get pnpm store directory
         id: pnpm-cache
         shell: bash
@@ -43,9 +46,6 @@ jobs:
 
       - run: pnpm install --no-frozen-lockfile && pnpm build
         name: Install & Build
-
-      - name: Write NPM_TOKEN
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
       - name: Version & Publish
         run: |
