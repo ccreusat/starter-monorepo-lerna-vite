@@ -3,6 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/core@1.4.5...@starter-ccreusat/core@1.12.0) (2023-11-27)
+
+
+### Bug Fixes
+
+* add select component ([d20634c](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/d20634c01f60dee0f3994b9753ad396edd0a6f3a))
+
+
+
+# 1.11.0 (2023-11-27)
+
+
+### Features
+
+* add test component ([bc95c8d](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/bc95c8da33ced23a12786d31673e35b7ff701cc6))
+
+
+
+# 1.10.0 (2023-11-27)
+
+
+
+# 1.10.0-develop-pedago.0 (2023-11-27)
+
+
+### Features
+
+* add table component ([789716e](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/789716e302b02518e58ab41cfc63effd1b3d59ee))
+
+
+
+## 1.9.2 (2023-11-27)
+
+
+
+# 1.9.0 (2023-11-27)
+
+
+
+
+
 # [1.11.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/v1.10.0...v1.11.0) (2023-11-27)
 
 
