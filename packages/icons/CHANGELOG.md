@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.6-develop.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/icons@1.2.5...@starter-ccreusat/icons@1.2.6-develop.0) (2023-11-27)
+
+
+### Bug Fixes
+
+* remove icon calendar ([a363e19](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/a363e1968490579ed60f7cddd2265c5957ff2a2c))
+
+
+
+
+
 ## 1.2.5 (2023-11-27)
 
 **Note:** Version bump only for package @starter-ccreusat/icons
