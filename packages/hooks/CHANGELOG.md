@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.1](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/hooks@1.7.0...@starter-ccreusat/hooks@1.7.1) (2023-11-27)
+
+
+### Bug Fixes
+
+* remove all hooks ([43a3feb](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/43a3feb3661fb615fd30edc8f2290e7094186248))
+* remove hooks ([f15e9ed](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/f15e9ed4969db9951b6798a29b1a6249ed9c0ad6))
+
+
+
+
+
 # [1.7.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/hooks@1.6.0...@starter-ccreusat/hooks@1.7.0) (2023-11-27)
 
 
