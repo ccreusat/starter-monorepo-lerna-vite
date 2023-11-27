@@ -60,8 +60,7 @@ jobs:
             npx lerna publish --canary --preid develop-b2school --pre-dist-tag develop-b2school --yes
           else
             echo "develop"
-            # npx lerna publish --canary --preid develop --pre-dist-tag develop --yes
-            npx lerna publish --canary --preid develop --pre-dist-tag develop --force-publish --yes
+            npx lerna publish --canary --preid develop --pre-dist-tag develop --yes
           fi
 
         env:
