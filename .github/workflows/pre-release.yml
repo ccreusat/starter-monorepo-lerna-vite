@@ -54,15 +54,15 @@ jobs:
 
           if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --preid develop-pedago --no-changelog --no-git-tag-version --no-private --yes
-            npx lerna publish from-git --preid develop-pedago --pre-dist-tag develop-pedago --yes
+            npx lerna publish from-package --preid develop-pedago --pre-dist-tag develop-pedago --yes
           elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
             npx lerna version --conventional-commits --conventional-prerelease --preid develop-b2school --no-changelog --no-git-tag-version --no-private --yes
-            npx lerna publish from-git --preid develop-b2school --pre-dist-tag develop-b2school --yes
+            npx lerna publish from-package --preid develop-b2school --pre-dist-tag develop-b2school --yes
           else
             echo "your current branch is develop"
             npx lerna version --conventional-commits --conventional-prerelease --preid develop --no-changelog --no-git-tag-version --no-private --yes
             git add -A && git commit -m "chore(pre-release) version & publish" && git push
-            npx lerna publish from-git --preid develop --pre-dist-tag develop --yes
+            npx lerna publish from-package --preid develop --pre-dist-tag develop --yes
           fi
 
         env:
