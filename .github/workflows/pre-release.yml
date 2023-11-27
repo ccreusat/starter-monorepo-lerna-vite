@@ -64,9 +64,9 @@ jobs:
             npx lerna publish from-git --preid develop-b2school --pre-dist-tag develop-b2school --yes
           else
             echo "your current branch is develop"
-            npx lerna version --conventional-commits --conventional-prerelease --preid develop --no-changelog --no-private --yes
+            # npx lerna version --conventional-commits --conventional-prerelease --preid develop --no-changelog --no-private --yes
             # git checkout -- packages/**/package.json
-            npx lerna publish from-git --preid develop --pre-dist-tag develop --yes
+            npx lerna publish --canary --preid develop --pre-dist-tag develop --yes
           fi
 
         env:
