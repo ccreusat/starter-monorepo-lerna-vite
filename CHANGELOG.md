@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/v1.10.0...v1.11.0) (2023-11-27)
+
+
+### Bug Fixes
+
+* remove all hooks ([a43dbfb](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/a43dbfb0e07c28b9d6aa5155415f1104c818d9e9))
+
+
+### Features
+
+* add test component ([bc95c8d](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/bc95c8da33ced23a12786d31673e35b7ff701cc6))
+
+
+
+
+
 # [1.10.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/v1.10.0-develop-pedago.0...v1.10.0) (2023-11-27)
 
 **Note:** Version bump only for package root
