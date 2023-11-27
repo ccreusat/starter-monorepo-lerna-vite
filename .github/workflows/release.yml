@@ -61,7 +61,8 @@ jobs:
             npx lerna version --conventional-commits --create-release github --no-private --yes
           fi
 
-          npx lerna publish from-git --yes
+          # npx lerna publish from-git --yes
+          npx lerna publish from-git --conventional-commits --no-git-reset --force-publish --yes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
