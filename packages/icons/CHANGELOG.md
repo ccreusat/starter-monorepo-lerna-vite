@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.17 (2023-11-27)
+
+**Note:** Version bump only for package @starter-ccreusat/icons
+
+
+
+
+
 ## [1.1.16](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/icons@1.1.15...@starter-ccreusat/icons@1.1.16) (2023-11-26)
 
 **Note:** Version bump only for package @starter-ccreusat/icons
