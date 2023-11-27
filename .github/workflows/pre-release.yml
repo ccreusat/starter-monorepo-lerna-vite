@@ -53,10 +53,13 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
           if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
+            echo "ici pedago"
             npx lerna publish --canary --preid develop-pedago --pre-dist-tag develop-pedago --yes
           elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
+            echo "ici b2school"
             npx lerna publish --canary --preid develop-b2school --pre-dist-tag develop-b2school --yes
           else
+            echo "ici develop"
             npx lerna publish --canary --preid develop --pre-dist-tag develop --yes
           fi
 
