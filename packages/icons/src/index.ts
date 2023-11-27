@@ -1,4 +1,3 @@
-export { default as Camera } from "./Camera";
 export { default as Check } from "./Check";
 export { default as Checklist } from "./Checklist";
 export { default as Clock } from "./Clock";
