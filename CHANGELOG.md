@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.12.1](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/v1.11.0...v1.12.1) (2023-11-27)
+
+
+### Bug Fixes
+
+* add dropdown components ([f9b4d0b](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/f9b4d0b6c22503d76fc296bbb7ebdd1cb1ca053a))
+* add select component ([d20634c](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/d20634c01f60dee0f3994b9753ad396edd0a6f3a))
+
+
+
+
+
 # [1.11.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/v1.10.0...v1.11.0) (2023-11-27)
 
 
