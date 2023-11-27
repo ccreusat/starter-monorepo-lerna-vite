@@ -1,4 +1,3 @@
-export { default as BurgerMenu } from "./BurgerMenu";
 export { default as Calendar } from "./Calendar";
 export { default as CalendarLight } from "./CalendarLight";
 export { default as Camera } from "./Camera";
