@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/v1.10.0-develop-pedago.0...v1.10.0) (2023-11-27)
+
+**Note:** Version bump only for package root
+
+
+
+
+
 ## [1.9.4](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/v1.9.3...v1.9.4) (2023-11-27)
 
 
