@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.9.0 (2023-11-27)
+
+
+### Bug Fixes
+
+* add license md ([5bee964](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/5bee9645737edb63a8df5afe3021b426bb00ce34))
+* add publishConfig ([c88ade8](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/c88ade8450289325d0fe4615a29b014fb994dbef))
+* change scope to [@ccreusat](https://github.com/ccreusat) ([52c0723](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/52c07237fe81203f34cf5dbe3c51a1ae169cbd13))
+* **icons:** remove audio icon ([0a35f6f](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/0a35f6fa7239b7def93d16d1b157776b3d08e3d0))
+* **icons:** remove block icon ([2102d38](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/2102d38a029c977600f03d435bbbd3de0b3eaa5b))
+* install and build works ([5a149db](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/5a149db6b335b45625769a36e873fdd357b8011b))
+* **release:** publish ([fb65605](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/fb65605bf1450f22fd5b14007f863ac9ec08fd56))
+* remove icon ([6ca30c3](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/6ca30c34e3df85c2d6cfeb98a3a466ebfd3922be))
+* remove icon ([bec713c](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/bec713c80164996b6f06bb86b8defc7914022794))
+* remove icon  zefzef calendar ([b1cc887](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/b1cc887b7d87a64af487db77d6ec52980923b5b7))
+* remove icon burger menu ([2ba1aa0](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/2ba1aa0f5d92b42be3f848eb1eb459fcf55e490b))
+* remove icon calendar ([a363e19](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/a363e1968490579ed60f7cddd2265c5957ff2a2c))
+* remove icon calendar ([5656f05](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/5656f054e538fafd59bcf8a3d2555c47e70cd07c))
+* remove icon from index ts ([cef7a75](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/cef7a75ec2a34b07c9c9da47301539257f1d6e3b))
+* remove wrong icon ([136e252](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/136e2523cba9fb4108800d66db59a7c37fc41831))
+* rollback icons ([d28e01b](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/d28e01bf14e38a92a69ea87f9e45b840093282c2))
+* try different message when publish ([2c97d3f](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/2c97d3f4e202346d6a441e81088f2ee5164b71e1))
+
+
+### Features
+
+* clean package icon ([7bce8be](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/7bce8be340d9c9b5c670cdc11f60051c5ce2922b))
+* clean package icon 2 ([c24c2b2](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/c24c2b2367cc903061887ddfd98460960f3fcbdc))
+
+
+
+
+
 ## [1.2.7](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/@starter-ccreusat/icons@1.2.7-develop.0...@starter-ccreusat/icons@1.2.7) (2023-11-27)
 
 **Note:** Version bump only for package @starter-ccreusat/icons

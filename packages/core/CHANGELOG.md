@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.9.0 (2023-11-27)
+
+
+### Bug Fixes
+
+* add license md ([5bee964](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/5bee9645737edb63a8df5afe3021b426bb00ce34))
+* add missing vite dep ([58b3dd9](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/58b3dd9441df99579a1289de8913e1085c2d1dba))
+* add publishConfig ([c88ade8](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/c88ade8450289325d0fe4615a29b014fb994dbef))
+* change scope to [@ccreusat](https://github.com/ccreusat) ([52c0723](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/52c07237fe81203f34cf5dbe3c51a1ae169cbd13))
+* **core:** rename accordion types ([7316382](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/7316382db1d128df943986f391f978fbbab5d3b1))
+* correct index file ([c6eb2c7](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/c6eb2c7e0d4dbfa355547409b754ec733c0d1fe7))
+* install and build works ([5a149db](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/5a149db6b335b45625769a36e873fdd357b8011b))
+* **release:** publish ([fb65605](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/fb65605bf1450f22fd5b14007f863ac9ec08fd56))
+* remove eslint disable line ([17a6d3e](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/17a6d3e4f2eec6021add0a6bdb74e67417e38bad))
+* try different message when publish ([2c97d3f](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/2c97d3f4e202346d6a441e81088f2ee5164b71e1))
+
+
+### Features
+
+* add new accordion component ([6737e9a](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/6737e9a211540630b5f1a1f4b266e4763dc6af1d))
+* **combobox:** change combobox component ([7c91fe6](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/7c91fe6f9d72416ae5b69c95d92712c5dc46f113))
+* **core:** add accordion component ([99f9136](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/99f9136668a8f43e8b5f30deeb23d881c63fea17))
+* **core:** add combobox component ([0c1c768](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/0c1c768e5c7a6cb17af1b36588b66b281aac918f))
+
+
+
+
+
 ## 1.4.5 (2023-11-27)
 
 **Note:** Version bump only for package @starter-ccreusat/core
