@@ -1,4 +1,3 @@
-export { default as Audio } from "./Audio";
 export { default as Block } from "./Block";
 export { default as BurgerMenu } from "./BurgerMenu";
 export { default as Calendar } from "./Calendar";
