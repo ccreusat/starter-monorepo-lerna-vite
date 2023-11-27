@@ -61,7 +61,7 @@ jobs:
           else
             echo "develop"
             # npx lerna publish --canary --preid develop --pre-dist-tag develop --yes
-            npx lerna publish --canary --preid develop --pre-dist-tag develop --yes
+            npx lerna publish --canary --preid develop --pre-dist-tag develop prepatch --force-publish --yes
           fi
 
         env:
