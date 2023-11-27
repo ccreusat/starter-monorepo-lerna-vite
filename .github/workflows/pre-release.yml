@@ -55,11 +55,11 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
           if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
-            npx lerna version --conventional-commits --conventional-prerelease --preid develop-pedago --no-changelog --no-private --yes
+            # npx lerna version --conventional-commits --conventional-prerelease --preid develop-pedago --no-changelog --no-private --yes
             # git checkout -- packages/**/package.json
             npx lerna publish --canary --preid develop-pedago --pre-dist-tag develop-pedago --yes
           elif [ "${{ github.ref }}" = "refs/heads/develop-b2school" ]; then
-            npx lerna version --conventional-commits --conventional-prerelease --preid develop-b2school --no-changelog --no-private --yes
+            # npx lerna version --conventional-commits --conventional-prerelease --preid develop-b2school --no-changelog --no-private --yes
             # git checkout -- packages/**/package.json
             npx lerna publish --canary --preid develop-b2school --pre-dist-tag develop-b2school --yes
           else
