@@ -1,4 +1,3 @@
-export { default as Calendar } from "./Calendar";
 export { default as CalendarLight } from "./CalendarLight";
 export { default as Camera } from "./Camera";
 export { default as Check } from "./Check";
