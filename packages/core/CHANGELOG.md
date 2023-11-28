@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.1](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/v1.13.0...v1.13.1) (2023-11-28)
+
+
+### Bug Fixes
+
+* **core:** remove accordion component ([7fe8ae3](https://github.com/ccreusat/starter-monorepo-lerna-vite/commit/7fe8ae3cc4d651047b49ecb0ff9da0af9d735ac0))
+
+
+
+
+
 # [1.13.0](https://github.com/ccreusat/starter-monorepo-lerna-vite/compare/v1.12.2...v1.13.0) (2023-11-27)
 
 
