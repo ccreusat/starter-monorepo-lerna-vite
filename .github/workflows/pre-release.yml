@@ -54,7 +54,7 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          echo "Your current branch is $(basename ${{ github.ref }})"
+          echo "Your current branch is ${{ github.ref }}"
 
           if [ "${{ github.ref }}" = "refs/heads/develop-pedago" ]; then
             npx lerna publish --canary --preid develop-pedago --pre-dist-tag develop-pedago --yes
