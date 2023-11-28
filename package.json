@@ -7,8 +7,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "bootstrap": "pnpm lerna bootstrap",
-    "build": "npx lerna run build",
+    "build": "turbo run build",
     "clean": "pnpm lerna clean && rm -rf node_modules",
     "fix": "pnpm lerna run fix",
     "graph": "pnpm nx graph",
@@ -22,6 +21,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "lerna": "^7.0.2"
+    "lerna": "7.0.2",
+    "turbo": "1.10.12"
   }
 }
