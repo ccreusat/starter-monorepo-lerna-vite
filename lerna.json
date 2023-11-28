@@ -2,6 +2,7 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "1.13.3",
   "npmClient": "pnpm",
+  "changelogPreset": "angular",
   "command": {
     "version": {
       "allowBranch": [

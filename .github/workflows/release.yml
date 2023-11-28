@@ -57,7 +57,7 @@ jobs:
           npx lerna version --conventional-commits --conventional-graduate --create-release github --no-private --yes || export LERNA_VERSION_ERROR=$?
 
           if [ -n "$LERNA_VERSION_ERROR" ]; then
-            npx lerna version --conventional-commits --create-release github --no-private --yes
+            npx lerna version --conventional-commits --changelog-preset conventionalcommits --create-release github --no-private --yes
           fi
 
           npx lerna publish from-git --conventional-commits --yes

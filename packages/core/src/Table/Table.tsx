@@ -5,7 +5,7 @@ import { TableProps } from "./TableProps";
  */
 export const Table = ({
   primary = false,
-  size = "medium",
+  size = "large",
   backgroundColor,
   label,
   ...props

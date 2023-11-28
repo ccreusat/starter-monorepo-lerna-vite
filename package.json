@@ -19,8 +19,8 @@
     "pretty": "pnpm lerna run pretty",
     "storybook": "pnpm lerna run dev --scope=@starter-ccreusat/storybook"
   },
-  "dependencies": {},
   "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^7.0.2",
     "lerna": "7.0.2",
     "turbo": "1.10.12"
   }
